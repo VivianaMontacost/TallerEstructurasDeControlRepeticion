@@ -1,0 +1,9 @@
+palabra="Colombia: Bogotá"
+b=palabra.index(":")
+tamaño=len(palabra)
+lista=[]
+for i in range(b+2,tamaño):
+  lista.append(palabra[i])
+print(lista)  
+unir="".join(lista)  
+print(unir)  
